@@ -1,0 +1,114 @@
+body{
+    background-color: #d9d9d9;
+}
+p {
+    margin: 0;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.instaPost{
+    width: 614px;
+    margin: 0 auto;
+}
+
+.postHeader {
+    max-height: 62px;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    padding-top: 12px;
+    border-radius: 3px 3px 0 0;
+}
+.imgAvatar {
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+
+    border: 2px solid transparent;
+    border-image: url(/build/94d33ef410a6af53fa0c4e5f47cf67af.jpg) 20%;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.imgAvatar img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 2px;
+}
+.headerNickname{
+    position: relative;
+    height: 36px;
+    top: -10px;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+
+
+/*contentPhoto*/
+.footerPost {
+    background-color: #fff;
+    padding: 8px 18px;
+    border-radius: 0 0 3px 3px;
+}
+
+.contentPhoto img{
+    width: 100%;
+}
+
+/*footer*/
+.likeComment{
+    width: 582px;
+    height: 40px;
+    margin: auto;
+}
+
+.likeComment a {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+.likeComment a:hover{
+    cursor:pointer;
+}
+.likeComment span{
+    width: 24px;
+    height: 24px;
+}
+.likeIcon {
+    background: url(/build/a90adff14f11a34bb7ae99a9f6ba56de.png) no-repeat 50% 50%;
+    background-size: contain;
+}
+.likeIconClicked {
+    background: url(/build/9854a21218fde59925e06ffbce87e4a1.png) no-repeat 50% 50%;
+    background-size: contain;
+}
+.commentIcon {
+    background: url(/build/023f88f3c5ee878cbe7fd5d24e11abc5.png) no-repeat 50% 50%;
+    background-size: 160%;
+}
+/*comments*/
+.markLike, .commentNickname{
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.comment {
+    margin:10px 2px;
+    font-size: 14px;
+}
+
+.addComment{
+    margin-top: 20px;
+}
+.addComment input {
+    border: 0;
+    outline: none;
+    height: 26px;
+}
